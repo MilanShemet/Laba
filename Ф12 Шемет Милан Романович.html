@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название страницы</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ссылка на CSS файл -->
+</head>
+<body>
+    <div class="Date">
+    <form style="position: relative; display: inline-block;">
+        <label for="start">От</label>
+
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2000-01-01" max="2030-12-31" style="width: 135px;
+            height: 50px;
+            top: 25px;
+            border-width: 1px;
+            border-radius:6px;
+            border-color: #d9d9d9; 
+            
+            " />
+    </form>
+    <form style="position: relative; display: inline-block;">
+        <label for="start">До</label>
+
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2000-01-01" max="2030-12-31" style="width: 135px;
+            height: 50px;
+            top: 25px;
+            border-width: 1px;
+            border-radius:5px;
+            border-color: #d9d9d9; 
+            
+            " />
+    </form>
+        <button style="width: 120px;height: 50px; background-color: black; color: #fcfcfc; border-radius: 5px;">
+            Поиск
+        </button>
+        
+        <button style="width: 120px;height: 50px; background-color: Purple; color: #fcfcfc; border-radius: 5px;">
+            Фильтр<img src="https://s3-alpha-sig.figma.com/img/a759/d05c/d4249145af54c3d7ac32954e622dcb3c?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=S1hKbNHngKVUHGx0JwhAMc2y4YFDmcTvXLHwAwif9V0IpbqmyTyefxdXSY8LSaCMK4eqSBblbxklLHnYZ51rMqabJVLYzhUEUXDQuiYUAGwVlB1RGDevTTuEwN2JijKWM1W1vQuNNVdMTTx3g~c1P0O9bywZcv2WYCfXNo9eSHbhfRaGRzwBr54B3jGMh~Pqg1GN0AaJP2ve1~h9wb0s4RP-Zef85xmtI~~iWpn2mOhRJN7NUOlMr7qzT3q79LVZ-NfmbGW6IQHnr5gBdm1MECUeN6aBxfaoYDHFSLPsp0NJWdHfUxBSB61JYk3pXqc8dCDvdR7fNJilPizXpmGg-Q__" style="width: 16px;height: 14px;"></img>
+        </button>
+
+        
+        <form style="position: relative; display: inline-block; left: 300px;">
+            
+    
+                
+            
+                        <input type="text" id="start" placeholder="Поиск" name="trip-start" style="width: 400px;
+                        height: 50px;
+                        top: 0%;
+                        border-width: 1px;
+                        border-radius:5px;
+                        border-color: #d9d9d9;
+                        position: relative;
+                        display: inline-block;
+                        padding-left: 10px;
+                        background-color: rgba(235, 235, 235, 0.5); " >
+                        
+        </form>
+                
+                
+        </form>
+                       <button  class="image-button">
+                         <img src="https://s3-alpha-sig.figma.com/img/f070/e520/26e91c3156ef6d1240f3961be8d940f0?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FSeZQnXfjFDH4XphDzJszJsnKLnP-NjCcrCW2FIoJ4f1fw53ZLyhx55aQ9mRWgPSDEaTVpgvlCMKBE2lySFZVrD6gykx6XzLA4h-zFfhzwq3MlLr7spVaUGWOCN6YiFoKNuCrN-YBB3WxAGzMTPT56ju8vuMQK667nSfI5RoErGFtmfdavtEi1CtUef7bNAR71DgiryuditGSfvxDCF0unzAZEVhTgPKcxq3zPL6UnEorD74JLnkcGZyn-2RI2E0HzHppdKeb6vZV9GAcynLB5~6RVMR8vnp-Yg~trTrfFrD~0n3uOQIzSi8KVYOJNyVnh2jlD5GkZZJFuNzD7CuDQ__" style="height: 16px;width: 16px;">
+                       </button>
+        
+    </div>
+    <div>
+        <div class="gray-line-2"></div>          
+        <div class="gray-line"></div>
+
+        <table class="table" height= 100>
+            <tr align="left" style="font-weight: normal;"><th style="width:200px; font-family: sans-serif;font-size: 16px;">Номер заказа</th><th style="width: 150px; font-family: sans-serif;font-size: 16px;">Дата заказа</th><th style="width: 200px; font-family: sans-serif;font-size: 16px;">Время заказа</th><th style="width: 150px; font-family: sans-serif;font-size: 16px;">Отправитель</th><th style="width: 170px; font-family: sans-serif;font-size: 16px;">Получатель</th><th style="width: 200px; font-family: sans-serif;font-size: 16px;">Проезд</th><th style="width: 100px; font-family: sans-serif;font-size: 16px;">Тариф</th></tr>
+            <tr><td><button style="border-width:0;background-color:white ;color: rgba(13, 110, 253, 1);text-decoration: underline; font-family: sans-serif;font-size: 16px;">123</button></td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td></tr>
+            <tr><td><button style="border-width:0;background-color:rgba(248, 248, 248, 1);color: rgba(13, 110, 253, 1);text-decoration: underline; font-family: sans-serif;font-size: 16px;">123</button></td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td></tr>
+            <tr><td><button style="border-width:0;background-color:white ;color: rgba(13, 110, 253, 1);text-decoration: underline; font-family: sans-serif;font-size: 16px;">123</button></td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td><td style="font-family: sans-serif;font-size: 16px;">123</td></tr>
+            
+        </table>
+              
+    </div>
+</body>
+<style>
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+    
+}
+.Date {
+
+    width: 1100px;
+    height: 75px;
+    top: 109px;
+    left: 100px;
+    gap: 10px;
+    position: relative;
+    display: inline-block;
+
+
+}
+.image-button {
+    top: 2px;
+    left: 250px;
+    height: 53px;
+    width: 53px;
+    background-color: purple;
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+
+
+}
+.gray-line {
+
+    width: 1250px;
+    height: 55px;
+    top: 90px;
+    left: 100px;
+    background-color: rgba(237, 237, 237, 1);
+    position: relative;
+
+
+
+}
+.table {
+
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+td {
+
+    
+    padding-top: 40px;
+
+}
+.gray-line-2 {
+
+width: 1250px;
+height: 55px;
+top: 270px;
+left: 100px;
+background-color: rgba(248, 248, 248, 1);
+position: relative;
+
+
+
+}
+
+
+</style>
+</html>
